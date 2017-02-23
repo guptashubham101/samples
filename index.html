@@ -1,9 +1,168 @@
-<!dotype html>
+
+<!DOCTYPE html>
+<html>
 <head>
+	<title>TrainByBrain : Online guide for perfect workout.</title>
+	<style type="text/css">
+		body{
+margin:0;
+	background-color: black;
+}
+.top_menu{
+	box-shadow: 1px 3px 4px #450;
+	background-color:WHITE;
+	height: 100px;
+	border-bottom:5px solid gray;
+}
+img{
+	height:inherit;
+}
+strong{
+	font-family: 'Anton', sans-serif;
+	font-size: 60px;
+	font-weight: bolder;
+	position:relative;
+	top: -30%;
+}
+.s1{
+	color:#434645;
+}
+.s2{
+	color: #292d35;
+}
+.s3{
+	color: #1a1f28
+}
+.shoulder{
+	height:450px; 
+	background-repeat: no-repeat;
+	background-image: url("../images/shoulderimage.jpg");
+	margin:25px;
+}
+.biceps{
+	height:450px; 
+	background-repeat: no-repeat;
+	background-image: url("../images/biceps.jpg");
+margin:25px;
+}
+.chest{
+	height:450px; 
+	background-repeat: no-repeat;
+	background-image: url("../images/chest4.jpg");
+margin:25px;
+}
+.back{
+	height:450px; 
+	background-repeat: no-repeat;
+	background-image: url("../images/back.jpg");
+margin:25px;
+}
+.abs{
+	height:450px; 
+	background-repeat: no-repeat;
+	background-image: url("../images/abs.jpg");
+margin:25px;
+}
+p{
+	font-family: 'Audiowide', cursive;
+background-color: rgba(162, 166, 173,0.3);
+	line-height: 30px;
+	color:white;
+	font-size: 30px;
+}
+.shoulder_heading, .chest_heading, .biceps_heading, .back_heading, .abs_heading{
+	color:gray;
+	background-color: black;
+	padding-right: 30px;
+}
+.container_image{
+	transition: all 0.3s ease-in-out; 
+overflow-x: hidden;
+}
+.container_image:hover{
+	transform: scale(1.02);
+}
+.description{
+	opacity: 0.7;
+}
+.show-description{
+	height: 200px;
+	opacity: 1;
+}
+	</style>
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+<script type="text/javascript" src="../js/jquery-3.1.1.js"></script>
+	<script type="text/javascript">
+		$('p').on('click', function(){
+	$(this).toggleClass('show-description');
+});
+$('img').on('focus', function(){
+	$('.top_menu').css('background-color','gray');
+});
+	</script>
 </head>
-<boy>
-<h1>INTRODUCTION</h1>
+<body>
+<div class="top_menu">
+	<img src="../images/logo.gif">
+	<strong class="s1">Train</strong><strong class="s2">By</strong><strong class="s3">Brain</strong>
+</div>
+
+<div class="container_image">
+	<img src="../images/body1.jpg">	
+</div>
+
+
+<div class="main_container">
+	<div class="shoulder"><p>
+	<strong class="shoulder_heading">Shoulders</strong>
+	<p class="description">That being said, if shoulders are a focus of yours, you can definitely train them twice a week, You can also work them once a week as a separate muscle group and then combine rear delts with back workouts, and medial and front delts with chest for a second session.</p></p>
+	</div>
+
+	<div class="biceps"><p>
+	<strong class="biceps_heading">Biceps</strong>
+	<p class="description">To build bigger arms, increase your overall muscle mass first by getting stronger and eating a lot.
+Eat More. Eat every 3 hours. ...
+GOMAD. Drink 1 gallon of whole milk a day. ...
+Get Stronger. Increase your Squat to 1.5x your body-weight for at least 1 rep. ...
+Rest. Muscles grow when at rest. ...
+Track Progress. ...
+Avoid Curls.</p></p>
+	</div>
+
+	<div class="chest"><p>
+		<strong class="chest_heading">Chest</strong>
+	<p class="description">
+Hit these five simple-but-brutally effective moves and build a chiseled chest!
+Barbell Bench Press. Barbell Bench Press. (3 SETS OF 20, 15, 10 REPS) ...
+Incline Dumbbell Press. Incline Dumbbell Press. (2 SETS OF 10-12 REPS TO FAILURE) ...
+Flat Dumbbell Fly. Flat Dumbbell Fly. ...
+Bar Dip. Bar Dip. ...
+Push-Up. Push-Up.</p></p>
+	</div>
+
+	<div class="back"><p>
+		<strong class="back_heading">Back</strong>
+	<p class="description">Pull-ups / Chin-ups. Share. ...
+Deadlifts. Sumo deadlifts, conventional deadlifts, beyond the range (from a deficit), rack pulls - it doesn't matter, just do them. ...
+Seated Rows / Bent Over Rows. Seated Rows. ...
+Back Extensions. ...
+Face Pulls / External Rotations / Band Pull Aparts / Foam Rolling.</p></p>
+		
+	</div>
+
+	<div class="abs"><p>
+		<strong class="abs_heading">Abs</strong>
+	<p class="description">Understand what it means to lose weight. In order to burn fat, you need to use up calories. ...
+Do cardio workouts. ...
+Eat smaller meals late at night. ...
+Eat breakfast. ...
+Lift weights. ...
+Keep metabolism steady. ...
+Drink more water every day. ...
+Switch out refined grains for whole grains.</p></p>
+		
+	</div>
+</div>
 </body>
-<
->
-mdlks
+</head>
